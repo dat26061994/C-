@@ -31,3 +31,16 @@ E:\C1508J\C#Project1\FootbalClubManagement\FootbalClubManagement\obj\Debug\Footb
 C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\bin\Debug\FootbalClubManagement.exe.config
 C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\obj\Debug\FootbalClubManagement.exe
 C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\obj\Debug\FootbalClubManagement.pdb
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\obj\Debug\FootbalClubManagement.csprojResolveAssemblyReference.cache
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\obj\Debug\FootbalClubManagement.Form1.resources
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\obj\Debug\FootbalClubManagement.formLogin.resources
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\obj\Debug\FootbalClubManagement.Properties.Resources.resources
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\obj\Debug\FootbalClubManagement.csproj.GenerateResource.Cache
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\bin\Debug\FootbalClubManagement.exe
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\bin\Debug\FootbalClubManagement.pdb
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\bin\Debug\EntityFramework.dll
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\bin\Debug\MySql.Data.dll
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\bin\Debug\EntityFramework.xml
+C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\bin\Debug\EntityFramework.SqlServer.xml
