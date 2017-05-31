@@ -158,7 +158,7 @@
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtPassword.isPassword = false;
+            this.txtPassword.isPassword = true;
             this.txtPassword.Location = new System.Drawing.Point(211, 142);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtPassword.Name = "txtPassword";
@@ -173,7 +173,7 @@
             this.txtUsername.BorderColorMouseHover = System.Drawing.Color.Blue;
             this.txtUsername.BorderThickness = 3;
             this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtUsername.isPassword = false;
             this.txtUsername.Location = new System.Drawing.Point(211, 49);
