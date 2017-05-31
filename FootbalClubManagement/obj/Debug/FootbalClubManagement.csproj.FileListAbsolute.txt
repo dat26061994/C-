@@ -44,3 +44,19 @@ C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagem
 C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\bin\Debug\MySql.Data.dll
 C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\bin\Debug\EntityFramework.xml
 C:\Users\dat26\OneDrive\Documents\Visual Studio 2015\Projects\FootbalClubManagement\FootbalClubManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\bin\Debug\FootbalClubManagement.exe.config
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\bin\Debug\FootbalClubManagement.exe
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\bin\Debug\FootbalClubManagement.pdb
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\bin\Debug\EntityFramework.dll
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\bin\Debug\MySql.Data.dll
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\bin\Debug\EntityFramework.xml
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\obj\Debug\FootbalClubManagement.csprojResolveAssemblyReference.cache
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\obj\Debug\FootbalClubManagement.Form1.resources
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\obj\Debug\FootbalClubManagement.formLogin.resources
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\obj\Debug\FootbalClubManagement.Properties.Resources.resources
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\obj\Debug\FootbalClubManagement.csproj.GenerateResource.Cache
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\obj\Debug\FootbalClubManagement.exe
+C:\Users\Phong\Desktop\Chelsea\C-\FootbalClubManagement\obj\Debug\FootbalClubManagement.pdb
