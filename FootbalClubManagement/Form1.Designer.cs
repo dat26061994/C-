@@ -51,6 +51,18 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PanelTransition = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.PanelTransitionOut = new BunifuAnimatorNS.BunifuTransition(this.components);
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.SidePanel.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Menu)).BeginInit();
@@ -60,6 +72,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.btn_Maximize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // mainPanel
@@ -256,7 +273,7 @@
             this.bunifuFlatButton3.IconVisible = true;
             this.bunifuFlatButton3.IconZoom = 100D;
             this.bunifuFlatButton3.IsTab = true;
-            this.bunifuFlatButton3.Location = new System.Drawing.Point(0, 284);
+            this.bunifuFlatButton3.Location = new System.Drawing.Point(0, 291);
             this.bunifuFlatButton3.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuFlatButton3.Name = "bunifuFlatButton3";
             this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(163)))), ((int)(((byte)(188)))));
@@ -299,7 +316,7 @@
             this.HeaderPanel.Location = new System.Drawing.Point(355, 0);
             this.HeaderPanel.Margin = new System.Windows.Forms.Padding(4);
             this.HeaderPanel.Name = "HeaderPanel";
-            this.HeaderPanel.Size = new System.Drawing.Size(1466, 116);
+            this.HeaderPanel.Size = new System.Drawing.Size(1012, 116);
             this.HeaderPanel.TabIndex = 1;
             this.HeaderPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HeaderPanel_MouseDown);
             this.HeaderPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.HeaderPanel_MouseMove);
@@ -312,7 +329,7 @@
             this.logoTransition.SetDecoration(this.name, BunifuAnimatorNS.DecorationType.None);
             this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.name.Location = new System.Drawing.Point(338, 31);
+            this.name.Location = new System.Drawing.Point(431, 30);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(259, 51);
             this.name.TabIndex = 2;
@@ -328,7 +345,7 @@
             this.PanelTransitionOut.SetDecoration(this.btn_Minimize, BunifuAnimatorNS.DecorationType.None);
             this.btn_Minimize.Image = ((System.Drawing.Image)(resources.GetObject("btn_Minimize.Image")));
             this.btn_Minimize.ImageActive = null;
-            this.btn_Minimize.Location = new System.Drawing.Point(1262, 0);
+            this.btn_Minimize.Location = new System.Drawing.Point(808, 0);
             this.btn_Minimize.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Minimize.Name = "btn_Minimize";
             this.btn_Minimize.Size = new System.Drawing.Size(63, 68);
@@ -347,7 +364,7 @@
             this.PanelTransitionOut.SetDecoration(this.btn_Maximize, BunifuAnimatorNS.DecorationType.None);
             this.btn_Maximize.Image = ((System.Drawing.Image)(resources.GetObject("btn_Maximize.Image")));
             this.btn_Maximize.ImageActive = null;
-            this.btn_Maximize.Location = new System.Drawing.Point(1332, 0);
+            this.btn_Maximize.Location = new System.Drawing.Point(878, 0);
             this.btn_Maximize.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Maximize.Name = "btn_Maximize";
             this.btn_Maximize.Size = new System.Drawing.Size(63, 50);
@@ -366,7 +383,7 @@
             this.PanelTransitionOut.SetDecoration(this.btn_Exit, BunifuAnimatorNS.DecorationType.None);
             this.btn_Exit.Image = ((System.Drawing.Image)(resources.GetObject("btn_Exit.Image")));
             this.btn_Exit.ImageActive = null;
-            this.btn_Exit.Location = new System.Drawing.Point(1403, 0);
+            this.btn_Exit.Location = new System.Drawing.Point(949, 0);
             this.btn_Exit.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(63, 59);
@@ -404,7 +421,7 @@
             this.PanelTransition.SetDecoration(this.pictureBox1, BunifuAnimatorNS.DecorationType.None);
             this.logoTransition.SetDecoration(this.pictureBox1, BunifuAnimatorNS.DecorationType.None);
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(402, 135);
+            this.pictureBox1.Location = new System.Drawing.Point(477, 189);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(226, 271);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -454,13 +471,167 @@
             animation1.TransparencyCoeff = 0F;
             this.PanelTransitionOut.DefaultAnimation = animation1;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.PanelTransitionOut.SetDecoration(this.pictureBox2, BunifuAnimatorNS.DecorationType.None);
+            this.PanelTransition.SetDecoration(this.pictureBox2, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.pictureBox2, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(774, 189);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(226, 271);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.PanelTransitionOut.SetDecoration(this.pictureBox3, BunifuAnimatorNS.DecorationType.None);
+            this.PanelTransition.SetDecoration(this.pictureBox3, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.pictureBox3, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(1081, 189);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(226, 271);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.PanelTransitionOut.SetDecoration(this.textBox1, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.textBox1, BunifuAnimatorNS.DecorationType.None);
+            this.PanelTransition.SetDecoration(this.textBox1, BunifuAnimatorNS.DecorationType.None);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(408, 147);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 27);
+            this.textBox1.TabIndex = 5;
+            this.textBox1.Text = "Uniform";
+            // 
+            // pictureBox4
+            // 
+            this.PanelTransitionOut.SetDecoration(this.pictureBox4, BunifuAnimatorNS.DecorationType.None);
+            this.PanelTransition.SetDecoration(this.pictureBox4, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.pictureBox4, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(362, 135);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(40, 39);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 6;
+            this.pictureBox4.TabStop = false;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.PanelTransitionOut.SetDecoration(this.textBox2, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.textBox2, BunifuAnimatorNS.DecorationType.None);
+            this.PanelTransition.SetDecoration(this.textBox2, BunifuAnimatorNS.DecorationType.None);
+            this.textBox2.Location = new System.Drawing.Point(544, 477);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 15);
+            this.textBox2.TabIndex = 7;
+            this.textBox2.Text = "Home Kid";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.PanelTransitionOut.SetDecoration(this.textBox3, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.textBox3, BunifuAnimatorNS.DecorationType.None);
+            this.PanelTransition.SetDecoration(this.textBox3, BunifuAnimatorNS.DecorationType.None);
+            this.textBox3.Location = new System.Drawing.Point(851, 477);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 15);
+            this.textBox3.TabIndex = 8;
+            this.textBox3.Text = "Away Kid";
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox4
+            // 
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.PanelTransitionOut.SetDecoration(this.textBox4, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.textBox4, BunifuAnimatorNS.DecorationType.None);
+            this.PanelTransition.SetDecoration(this.textBox4, BunifuAnimatorNS.DecorationType.None);
+            this.textBox4.Location = new System.Drawing.Point(1151, 477);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 15);
+            this.textBox4.TabIndex = 9;
+            this.textBox4.Text = "3st Kid";
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pictureBox5
+            // 
+            this.PanelTransitionOut.SetDecoration(this.pictureBox5, BunifuAnimatorNS.DecorationType.None);
+            this.PanelTransition.SetDecoration(this.pictureBox5, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.pictureBox5, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(362, 526);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(40, 39);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 10;
+            this.pictureBox5.TabStop = false;
+            // 
+            // textBox5
+            // 
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.PanelTransitionOut.SetDecoration(this.textBox5, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.textBox5, BunifuAnimatorNS.DecorationType.None);
+            this.PanelTransition.SetDecoration(this.textBox5, BunifuAnimatorNS.DecorationType.None);
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(408, 538);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(164, 27);
+            this.textBox5.TabIndex = 11;
+            this.textBox5.Text = "HomeGround";
+            // 
+            // dateTimePicker1
+            // 
+            this.PanelTransitionOut.SetDecoration(this.dateTimePicker1, BunifuAnimatorNS.DecorationType.None);
+            this.PanelTransition.SetDecoration(this.dateTimePicker1, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.dateTimePicker1, BunifuAnimatorNS.DecorationType.None);
+            this.dateTimePicker1.Location = new System.Drawing.Point(640, 371);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker1.TabIndex = 12;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.PanelTransitionOut.SetDecoration(this.pictureBox6, BunifuAnimatorNS.DecorationType.None);
+            this.PanelTransition.SetDecoration(this.pictureBox6, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.pictureBox6, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(517, 614);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(709, 319);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 13;
+            this.pictureBox6.TabStop = false;
+            // 
             // Form1
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1821, 945);
+            this.ClientSize = new System.Drawing.Size(1367, 945);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.HeaderPanel);
             this.Controls.Add(this.SidePanel);
@@ -482,7 +653,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.btn_Maximize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -506,6 +683,18 @@
         private BunifuAnimatorNS.BunifuTransition PanelTransitionOut;
         private ns1.BunifuCustomLabel name;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }
 
